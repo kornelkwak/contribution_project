@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "border_removals",
+  "info": {
+    "singularName": "border-removal",
+    "pluralName": "border-removals",
+    "displayName": "BorderRemovals"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "time": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "float"
+    },
+    "long": {
+      "type": "float"
+    },
+    "source": {
+      "type": "string"
+    },
+    "filters": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
